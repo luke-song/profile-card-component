@@ -32,8 +32,8 @@ body {
   position: relative;
   margin-top: calc(50vh - 720px / 2);
   margin-left: calc(50vw - 1440px / 2);
-  background-image: url(../images/bg-pattern-top.svg),
-    url(../images/bg-pattern-bottom.svg);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: -61% 200%, 150% -145%;
   background-color: var(--Dark-cyan);
@@ -49,7 +49,7 @@ body {
   left: 50%;
   padding-top: 220px;
   transform: translate(-50%, -50%);
-  background-image: url(../images/bg-pattern-card.svg);
+  background-image: url(./images/bg-pattern-card.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-color: var(--White);
